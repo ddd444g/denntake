@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="main.css">
+   <title>電卓</title>
+  </head>
+   
+  <body>
+  <div class="container">
+    <p id="result">0</p>
+   
+   
+   <table>
+	  <tbody>
+		  <tr>
+		     <td><button onclick="num(this)">7</button></td>
+       <td><button onclick="num(this)">8</button></td>
+       <td><button onclick="num(this)">9</button></td>
+       <td><button onclick="operator(this)">+</button></td>
+		  </tr>
+		  <tr>
+       <td><button onclick="num(this)">4</button></td>
+       <td><button onclick="num(this)">5</button></td>
+       <td><button onclick="num(this)">6</button></td>
+       <td><button onclick="operator(this)">-</button></td>
+		  </tr>
+		  <tr>
+       <td><button onclick="num(this)">1</button></td>
+       <td><button onclick="num(this)">2</button></td>
+       <td><button onclick="num(this)">3</button></td>
+       <td><button onclick="operator(this)">*</button></td>
+		  </tr>
+		  <tr>
+       <td><button onclick="num(this)">0</button></td>
+       <td><button onclick="num(this)">00</button></td>
+       <td><button onclick="operator(this)">.</button></td>
+       <td><button onclick="operator(this)">/</button></td>
+		  </tr>
+		  <tr>
+			  <td colspan="2"><button onclick="equal_AC(this)">AC</button></td>
+			  <td colspan="2"><button onclick="equal_AC(this)">=</button></td>
+		  </tr>
+	  </tbody>
+  </table>
+
+  </div>
+   
+
+
+
+   <script src="main.js"></script>
+  </body>
+</html>
